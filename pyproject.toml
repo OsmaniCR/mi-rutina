@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mi-rutina"
+version = "0.1.0"
+description = "A Django-based routine management application"
+authors = ["OsmaniCR"]
+readme = "README.md"
+packages = []
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+django = ">=5.2.1,<6.0.0"
+djangorestframework = ">=3.16.0,<4.0.0"
+django-filter = ">=25.1,<26.0"
+djangorestframework-simplejwt = ">=5.5.0,<6.0.0"
+channels = ">=4.2.2,<5.0.0"
+psycopg2-binary = "^2.9.10"
+uvicorn = "^0.27.1"
+faker = "^37.3.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
